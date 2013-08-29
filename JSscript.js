@@ -1,5 +1,4 @@
 
-
   //  function to test input values with RegEx
 function testValue( strVariable, Regex ) 
 {
