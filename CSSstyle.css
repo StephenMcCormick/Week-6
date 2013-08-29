@@ -1,0 +1,41 @@
+		
+		
+		form{
+			border:3px solid blue;
+			width:525px;
+			padding:15px;
+			border-radius:1em;
+		}
+			
+		#wrapper{
+			position:relative;
+			margin:auto;
+			width:600px;
+			height:500px;
+			padding:10px;
+		}
+		
+		.boxes{
+			border:2px solid gray;
+			border-radius:5px;
+		}
+		
+		.error{
+			color:red;
+		}
+		
+		.bad{
+			border:3px solid red;
+			border-radius:5px;
+		}
+		
+		.good{
+			border:3px solid green;
+			border-radius:5px;
+		}
+		
+		#conformation{
+			
+		
+		
+		}
