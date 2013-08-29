@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<!--  Stephen McCormick
+		Week 6 -->
+		
+	<head>
+		<title> Week Six </title>
+		<!--  this is calling in the CSS  -->
+		<link rel="stylesheet" type="text/css" href="CSSstyle.css" />
+	</head>
+	 
+	 
+	
+	<body>
+		<div id="wrapper">
+		
+			<form id="MyFormID" name="MyForm">
+				First Name:<input id="firstName" class="boxes" type="text" placeholder="First Name" value="" /> <span class="error" id="err_firstName"></span>
+				<br />
+				Last Name:<input id="lastName" class="boxes" type="text" placeholder="Last Name" value="" /> <span class="error" id="err_lastName"></span>
+				<br />
+				Email: <input id="email" class="boxes" type="text" placeholder="sample@email.com" value="" /> <span class="error" id="err_email"></span>
+				<br />
+				Comments:
+				<br />
+				<textarea id="comments" class="boxes" rows="6" cols="60" name="comment_and" placeholder="enter comments here"></textarea> <span class="error" id="err_comment"></span>
+				<br /> <br />
+				<input type="Button" value="Submit" onclick="submitForm();"/>
+				
+			</form>
+			
+			<div id="conformation">
+			</div>
+			
+			
+		</div>
+		
+		<!--  this is calling in the java script  -->
+	<script type="text/javascript" src="JSscript.js"></script>
+	</body>
+</html>
